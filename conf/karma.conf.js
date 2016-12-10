@@ -9,6 +9,10 @@ module.exports = function (config) {
     junitReporter: {
       outputDir: 'test-reports'
     },
+    browsers: [
+      'Chrome',
+      'Firefox'
+    ],
     frameworks: [
       'jasmine'
     ],
