@@ -10,8 +10,7 @@ module.exports = function (config) {
       outputDir: 'test-reports'
     },
     browsers: [
-      'Chrome',
-      'Firefox'
+      'Chrome'
     ],
     frameworks: [
       'jasmine'
